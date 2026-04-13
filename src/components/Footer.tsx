@@ -11,7 +11,7 @@ export default function Footer() {
               Vector Badminton Club
             </h3>
             <p className="mt-3 text-sm leading-relaxed">
-              Building strong, confident young athletes through badminton since
+              Building strong, confident youth through badminton since
               2008 in Coquitlam, British Columbia.
             </p>
           </div>

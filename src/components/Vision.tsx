@@ -8,7 +8,7 @@ export default function Vision() {
             <span className="text-blue-600">it&apos;s a community</span>
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            At Vector Badminton Club, every athlete is coached with care,
+            At Vector Badminton Club, every member is coached with care,
             challenged at the right pace, and celebrated for effort as much as
             results.
           </p>
