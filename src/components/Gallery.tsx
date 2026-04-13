@@ -2,16 +2,20 @@ import Image from "next/image";
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=900&q=80",
-    alt: "Badminton player performing a jump smash",
+    src: "/group1.jpg",
+    alt: "Group coaching",
   },
   {
-    src: "https://images.unsplash.com/photo-1722003180803-577efd6d2ecc?auto=format&fit=crop&w=800&q=80",
-    alt: "Badminton racket with white shuttle",
+    src: "/private1.jpg",
+    alt: "Private coaching",
   },
   {
-    src: "https://images.unsplash.com/photo-1564226803380-91139fdcb4d0?auto=format&fit=crop&w=800&q=80",
-    alt: "White badminton shuttlecock",
+    src: "/group2.jpg",
+    alt: "Group play",
+  },
+  {
+    src: "/loy.jpg",
+    alt: "",
   },
   {
     src: "https://images.unsplash.com/photo-1521537634581-0dced2fee2ef?auto=format&fit=crop&w=800&q=80",
