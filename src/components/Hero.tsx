@@ -19,8 +19,8 @@ export default function Hero() {
         <p className="inline-block mb-4 md:mb-6 px-4 py-1.5 rounded-full bg-blue-600/20 border border-blue-400/30 text-blue-200 text-xs sm:text-sm font-semibold uppercase tracking-widest">
           Coquitlam, British Columbia
         </p>
-        <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white uppercase leading-tight tracking-tight">
-          Smashing good times,{" "}
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white uppercase leading-tight tracking-tight">
+          Vector Your Way to Smashing Times{" "}<br/>
           <span className="text-blue-400">one shuttle at a time</span>
         </h1>
         <p className="mt-4 md:mt-6 text-base sm:text-lg md:text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
