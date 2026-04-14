@@ -12,7 +12,7 @@ const navLinks = [
     external: true,
   },
   {
-    href: "file:///Users/roytheboy/Downloads/VBC%20consent%20%20and%20waiver%20form_2025-09.pdf",
+    href: "http://vectorbadmintonclub.com/VBC%20consent%20%20and%20waiver%20form_2021-08-08.pdf",
     label: "Waiver",
     external: true,
   },
