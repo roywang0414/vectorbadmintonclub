@@ -27,7 +27,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-20">
         <Link href="/" className="flex items-center gap-2 text-xl md:text-2xl font-extrabold text-gray-900 tracking-tight">
           <Image
-            src="/stanleylogo.jpg"
+            src="/stanleylogo.png"
             alt="Vector Badminton Club logo"
             width={40}
             height={40}
