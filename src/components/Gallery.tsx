@@ -14,7 +14,7 @@ const images = [
     alt: "Group play",
   },
   {
-    src: "/loy.jpg",
+    src: "/xinencoach.jpeg",
     alt: "",
   },
   {
