@@ -7,7 +7,7 @@ import Image from "next/image";
 const navLinks = [
   { href: "/#schedule", label: "Schedule" },
   {
-    href: "https://forms.gle/vZbirzMnccSWyS8f6",
+    href: "https://forms.gle/SKEAJsmp7jse4pTi6",
     label: "Registration",
     external: true,
   },
@@ -71,7 +71,7 @@ export default function Header() {
             </svg>
           </a>
           <a
-            href="https://forms.gle/vZbirzMnccSWyS8f6"
+            href="https://forms.gle/SKEAJsmp7jse4pTi6"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-600 text-white text-sm font-bold px-5 py-2.5 rounded-lg hover:bg-blue-700 transition-colors"
@@ -136,7 +136,7 @@ export default function Header() {
             )
           )}
           <a
-            href="https://forms.gle/vZbirzMnccSWyS8f6"
+            href="https://forms.gle/SKEAJsmp7jse4pTi6"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-3 bg-blue-600 text-white text-center font-bold py-3 rounded-lg hover:bg-blue-700 transition-colors"
