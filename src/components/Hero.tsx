@@ -16,6 +16,9 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
+        <p className="mb-3 md:mb-4 text-lg sm:text-xl md:text-2xl font-extrabold uppercase tracking-wide text-emerald-400 drop-shadow-[0_2px_8px_rgba(16,185,129,0.35)]">
+          Fall Registrations now OPEN!
+        </p>
         <p className="inline-block mb-4 md:mb-6 px-4 py-1.5 rounded-full bg-blue-600/20 border border-blue-400/30 text-blue-200 text-xs sm:text-sm font-semibold uppercase tracking-widest">
           Coquitlam, British Columbia
         </p>

@@ -1,20 +1,22 @@
-// Session dates for the Apr 5 – Jun 21, 2026 season (Sundays)
+// Session dates for the Sep 13 – Dec 13, 2026 season (Sundays)
 const sessionDates: Record<number, number[]> = {
-  4: [5, 12, 19, 26],   // April
-  5: [3, 10, 17, 31],   // May
-  6: [7, 14, 21],        // June
+  9: [13, 20, 27],          // September
+  10: [4, 11, 18, 25],      // October
+  11: [1, 8, 15, 22, 29],   // November
+  12: [6, 13],              // December
 };
 
 // Non-session Sundays within the season window
 const nonSessionSundays: Record<number, number[]> = {
-  5: [24],   // May 24
-  6: [28],   // June 28
+  9: [6],        // September 6
+  12: [20, 27],  // December 20, 27
 };
 
 const months = [
-  { month: 4, year: 2026, name: "April" },
-  { month: 5, year: 2026, name: "May" },
-  { month: 6, year: 2026, name: "June" },
+  { month: 9, year: 2026, name: "September" },
+  { month: 10, year: 2026, name: "October" },
+  { month: 11, year: 2026, name: "November" },
+  { month: 12, year: 2026, name: "December" },
 ];
 
 const dayLabels = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -127,7 +129,7 @@ export default function Schedule() {
                   d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                 />
               </svg>
-              Apr 5 &ndash; Jun 21, 2026
+              Sep 13 &ndash; Dec 13, 2026
             </span>
             <span className="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg text-sm font-medium">
               <svg
@@ -149,7 +151,7 @@ export default function Schedule() {
         </div>
 
         {/* Calendar grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
           {months.map((m) => (
             <MonthCalendar
               key={m.month}
