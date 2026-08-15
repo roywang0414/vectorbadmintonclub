@@ -42,7 +42,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://forms.gle/vZbirzMnccSWyS8f6"
+                  href="https://forms.gle/SKEAJsmp7jse4pTi6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"

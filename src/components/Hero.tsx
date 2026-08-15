@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
         <div className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3 justify-center">
           <a
-            href="https://forms.gle/vZbirzMnccSWyS8f6"
+            href="https://forms.gle/SKEAJsmp7jse4pTi6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold text-base sm:text-lg px-8 py-3.5 rounded-lg transition-colors"
